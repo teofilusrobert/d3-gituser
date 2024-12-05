@@ -34,7 +34,7 @@ export default function Home() {
     }
   };
 
-  const fetchReadme = async (repoName) => {
+  const fetchReadme = async (repoName:string) => {
     try {
       const response = await axios.get(
         `https://api.github.com/repos/${username}/${repoName}/readme`,
