@@ -1,0 +1,48 @@
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+.container input {
+    margin-right: 10px;
+    padding: 5px;
+}
+.container button {
+    padding: 5px 10px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.container button:hover {
+    background-color: #005bb5;
+}
+.container ul {
+    list-style-type: none;
+    padding: 0;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+.container li {
+    margin-bottom: 10px;
+}
+.readme {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    color: #000;
+    line-height: 1.6;
+}
+.readme pre {
+    background-color: #282c34;
+    color: #f8f8f2;
+    padding: 10px;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+.readme ul {
+    columns: 1;
+}
