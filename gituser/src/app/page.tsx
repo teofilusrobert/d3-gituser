@@ -14,7 +14,7 @@ type Repo = {
   fork: boolean; 
   stargazers_count: number;
   watchers_count: number;
-  [key: string]: any; 
+  [key: string]: string | number | boolean | null; 
 };
 
 export default function Home() {
